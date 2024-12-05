@@ -17,7 +17,6 @@ class Hotel extends Cliente
         parent::__construct($uuid);
         $this->servicio=array();
     }
-
     function comprobarDisponibilidad(): bool
     {
         // TODO: Implement comprobarDisponibilidad() method.
